@@ -36,6 +36,11 @@ class MyComponent extends PureComponent {
 export default rerender.on(MyComponent, ["title"]); 
 ```
 
+## TODO
+
+- docs
+- unit tests
+
 ## License:
 
 MIT
