@@ -12,13 +12,22 @@ class App extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => {
+        this._startIncrements();
+    }
+
+    componentWillUnmount() {
+        clearInterval(this._int1);
+        clearInterval(this._int2);
+    }
+
+    _startIncrements() {
+        this._int1 = setInterval(() => {
             this.setState(prev => ({
                 fastCounter: prev.fastCounter + 1,
             }));
         }, 250); // eslint-disable-line no-magic-numbers
 
-        setInterval(() => {
+        this._int2 = setInterval(() => {
             this.setState(prev => ({
                 slowCounter: prev.slowCounter + 1,
             }));

@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 
-import rerender from "../..";
+import rerender from "../../index.jsx";
 
 class Sub extends PureComponent {
     constructor(props, context) {
