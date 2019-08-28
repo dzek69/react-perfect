@@ -4,14 +4,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [UNRELEASED]
-### Changed
-- Missing name in LICENSE file
+- nothing yet
 
 ## [3.0.0] - 2019-08-28
 ### Changed
 - files extension from `js` to `jsx`, this is the only breaking change from `2.0.0`
 ### Fixed
 - dev deps audit issues by upgrading them
+### Changed
+- Missing name in LICENSE file
 
 ## [2.0.0] - 2019-08-13
 ### Changed
