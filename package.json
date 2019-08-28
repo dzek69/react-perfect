@@ -1,6 +1,6 @@
 {
   "name": "react-perfect",
-  "version": "3.0.1-unreleased.1",
+  "version": "3.0.1",
   "main": "src/index.jsx",
   "repository": "git@github.com:dzek69/react-perfect.git",
   "author": "Jacek Nowacki",
