@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [UNRELEASED]
 ### Changed
 - small building tweaks
+- import of subdependency, now importing smaller piece of code
 
 ## [3.0.0] - 2019-08-28
 ### Changed

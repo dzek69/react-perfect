@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import pick from "bottom-line-utils/dist/pick";
-import omit from "bottom-line-utils/dist/omit";
+import pick from "bottom-line-utils/pick";
+import omit from "bottom-line-utils/omit";
 
 const shallowDiffers = (a, b) => {
     for (const i in a) {
